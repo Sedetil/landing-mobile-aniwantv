@@ -26,8 +26,9 @@ function App() {
             <FaqSection />
           </main>
         } />
-        <Route path="/privacy" element={<LegalDocs activeTab="privacy" />} />
-        <Route path="/terms" element={<LegalDocs activeTab="terms" />} />
+        <Route path="/legal" element={<LegalDocs />} />
+        <Route path="/privacy" element={<LegalDocs />} />
+        <Route path="/terms" element={<LegalDocs />} />
       </Routes>
 
       <Footer />

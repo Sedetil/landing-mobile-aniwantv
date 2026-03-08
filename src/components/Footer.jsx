@@ -13,8 +13,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-6 text-sm text-gray-400">
-                        <Link to="/privacy" className="hover:text-red-500 transition-colors">Kebijakan Privasi</Link>
-                        <Link to="/terms" className="hover:text-red-500 transition-colors">Syarat Layanan</Link>
+                        <Link to="/legal" className="hover:text-red-500 transition-colors">Kebijakan Privasi & Syarat Layanan</Link>
                         <a href="mailto:support@aniwan.tv" className="hover:text-red-500 transition-colors">Bantuan</a>
                     </div>
 
